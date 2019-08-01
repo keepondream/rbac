@@ -5,7 +5,7 @@
  * DateTime: 2019-08-01 13:28
  */
 
-namespace KDCore;
+namespace KDCore\Controller;
 
 
 class RoleController
@@ -18,5 +18,10 @@ class RoleController
     public static function init()
     {
         return 11;
+    }
+
+    public static function test()
+    {
+        return "test";
     }
 }
